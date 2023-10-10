@@ -1,0 +1,8 @@
+[submodule "Virtual-Coach_FrontEnd"]
+	path = Virtual-Coach_FrontEnd
+	url = https://github.com/LONG-TERM-EFFECTS-OF-SUFFERING/Virtual-Coach_FrontEnd.git
+	branch = develop
+[submodule "Virtual-Coach_BackEnd"]
+	path = Virtual-Coach_BackEnd
+	url = https://github.com/LONG-TERM-EFFECTS-OF-SUFFERING/Virtual-Coach_BackEnd.git
+	branch = develop
