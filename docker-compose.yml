@@ -12,7 +12,7 @@ services:
     volumes:
       - static:/static
     build:
-      context: ./Virtual-Coach_Backend/virtual_c
+      context: ./Virtual-Coach_BackEnd/virtual_c
     ports:
       - "8000:8000"
 
