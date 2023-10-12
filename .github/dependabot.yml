@@ -1,0 +1,14 @@
+version: 2
+
+updates:
+  - package-ecosystem: gitsubmodule
+    schedule:
+        interval: "daily"
+    directory: "/Virtual-Coach_BackEnd"
+    target-branch: "develop"
+
+  - package-ecosystem: gitsubmodule
+    schedule:
+        interval: "daily"
+    directory: "/Virtual-Coach_Frontend"
+    target-branch: "develop"
