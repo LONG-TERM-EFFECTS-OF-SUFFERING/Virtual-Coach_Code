@@ -1,18 +1,26 @@
 version: 2
 
 updates:
-  - package-ecosystem: gitsubmodule
+  - package-ecosystem: "gitsubmodule"
     schedule:
-        interval: "daily"
-        time: "12:31"
-        timezone: "America/Bogota"
+      interval: "daily"
+      time: "12:44"
+      timezone: "America/Bogota"
     directory: "/Virtual-Coach_BackEnd"
-    target-branch: "develop"
-
-  - package-ecosystem: gitsubmodule
+    target:
+      files:
+        - path: ".gitmodules"
+          update:
+            target: "develop"
+            
+  - package-ecosystem: "gitsubmodule"
     schedule:
-        interval: "daily"
-        time: "12:31"
-        timezone: "America/Bogota"
+      interval: "daily"
+      time: "12:44"
+      timezone: "America/Bogota"
     directory: "/Virtual-Coach_Frontend"
-    target-branch: "develop"
+    target:
+      files:
+        - path: ".gitmodules"
+          update:
+            target: "develop"
