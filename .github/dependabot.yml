@@ -4,13 +4,13 @@ updates:
   - package-ecosystem: gitsubmodule
     schedule:
         interval: "daily"
-        time: "18:17"
+        time: "18:20"
     directory: "/Virtual-Coach_BackEnd"
     target-branch: "develop"
 
   - package-ecosystem: gitsubmodule
     schedule:
         interval: "daily"
-        time: "18:17"
+        time: "18:20"
     directory: "/Virtual-Coach_Frontend"
     target-branch: "develop"
