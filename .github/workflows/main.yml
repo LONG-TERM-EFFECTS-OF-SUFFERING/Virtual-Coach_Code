@@ -3,7 +3,7 @@ name: 'Submodules Sync'
 on:
   # Allows to start this action every five minutes
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'
 
 jobs:
   sync:
